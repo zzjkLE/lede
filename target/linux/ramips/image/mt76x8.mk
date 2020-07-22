@@ -266,7 +266,7 @@ endef
 TARGET_DEVICES += ravpower_rp-wd009
 
 define Device/skylab_skw92a
-  IMAGE_SIZE := 14336k
+  IMAGE_SIZE := 12288k
   DEVICE_VENDOR := Skylab
   DEVICE_MODEL := SKW92A
   DEVICE_PACKAGES := kmod-usb2 kmod-usb-ohci
